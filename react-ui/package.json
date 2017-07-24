@@ -1,0 +1,40 @@
+{
+  "name": "englishsounds",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:5000",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.2",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.1.0",
+    "react-scripts": "1.0.10"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "history": "^4.6.3",
+    "howler": "^2.0.4",
+    "material-ui": "^1.0.0-alpha.20",
+    "material-ui-icons": "^1.0.0-alpha.19",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.5",
+    "react-router-dom": "^4.1.1",
+    "react-router-redux": "^5.0.0-alpha.6",
+    "redux": "^3.7.0",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0",
+    "express": "^4.15.3",
+    "express-http-proxy": "^1.0.4",
+    "typeface-roboto": "0.0.29"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "start2": "node src/server.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

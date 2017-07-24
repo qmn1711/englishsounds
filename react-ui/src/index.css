@@ -1,0 +1,188 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif; }
+
+.wrapper {
+  max-width: 600px;
+  margin: 20px auto 50px;
+  padding: 0 5px;
+  /*border: 1px solid grey;*/
+  /*border-radius: 5px;*/
+}
+
+.navigators {
+  margin-bottom: 25px;
+  direction: rtl
+}
+
+.navigators a {
+  margin: 0 10px;
+  color: #304FFE;
+  text-decoration: none;
+}
+
+.navigators a:last-child {
+  margin-right: 0;
+}
+
+.footer {
+  margin-top: 10px;
+  direction: rtl;
+}
+
+.phonemic-chart,
+.sound-detail {
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.vowels {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid grey;
+}
+
+.monophthongs {
+  border-right: 1px solid grey;
+}
+
+.monophthongs,
+.diphthongs {
+  width: 50%;
+  height: 100%;
+}
+
+.monophthongs h2,
+.diphthongs h2,
+.consonants h2 {
+  border-bottom: 1px solid grey;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+}
+
+.consonants {
+  clear: both;
+}
+
+.content {
+  display: flex;
+  justify-content: center;  
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.sound {
+  margin: 5px;
+  text-align: center;
+}
+
+.sound .info-wrapper {
+  width: 62px;
+  height: 52px;
+  margin-bottom: 5px;
+}
+
+.sound .info {
+	text-align: center;
+  border: 1px solid grey;
+	border-radius: 8px;
+  width: 50px;
+  height: 50px;
+	line-height: 50px;
+  margin: 0 auto;
+	cursor: pointer;
+	user-select: none;
+	font-size: 30px;
+}
+
+.sound .info:hover {
+	color: #304FFE;
+  border: 2px solid #304FFE;
+	border-radius: 8px;
+	font-size: 35px;
+}
+
+.word-wrapper {
+  width: 62px;
+  height: 20px; 
+}
+
+.word {
+  text-align: center;
+  cursor: pointer;
+  user-select: none; 
+}
+
+.word:hover {
+  color: #304FFE;
+  font-size: 18px; 
+}
+
+.sound a {
+  color: #304FFE;
+}
+
+.sound-detail-wrapper {
+  position: relative;
+}
+
+.about-wrapper {
+  position: relative;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  padding: 10px;
+}
+
+.sound-detail {
+  display: block;
+  padding: 10px 20px;
+}
+
+.sound-detail .symbol {
+  display: inline-block;
+  font-size: 45px;
+}
+
+.back-to-home {
+  position: absolute;
+  top: -40px;
+  left: -2px;
+}
+
+.technologies {
+  margin: 10px 0;
+}
+
+.todo {
+  color: grey;
+}
+
+.todo p {
+  margin: 0;
+}
+
+/* Small screens */
+@media all and (max-width: 609px) {
+  .wrapper {
+    width: 306px;
+  }
+
+  .vowels {
+    flex-direction: column;
+  }
+
+  .monophthongs,
+  .diphthongs {
+    width: 100%;
+    height: 100%; 
+  }
+
+  .diphthongs h2 {
+    border-top: 1px solid grey;
+  }
+}
+
+
