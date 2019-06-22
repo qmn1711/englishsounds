@@ -1,39 +1,7 @@
 {
-	"extends": "airbnb",
-	"plugins": [
-		"react",
-		"jsx-a11y",
-		"import"
-	],
-	"globals": {
-		"document": true,
-		"window": true,
-		"localStorage": true,
-		"it": true
-	},
-	"rules": {
-		"react/jsx-filename-extension": [
-			1,
-			{
-				"extensions": [
-					".js",
-					".jsx"
-				]
-			}
-		],
-		"react/forbid-prop-types": [
-			1,
-			{
-				"forbid": [
-					"any",
-					"array"
-				]
-			}
-		],
-		"class-methods-use-this": [1,
-			{
-				"exceptMethods": ["handleSoundToggle"]
-			}
-		]
-	}
+  "extends": ["react-app", "prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error"
+  }
 }
